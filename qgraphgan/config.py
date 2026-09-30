@@ -1,7 +1,7 @@
 """Experiment configuration.
 
 The defaults below are the exact values used to produce the results reported
-in the MusiML @ ICML 2026 workshop paper. Change them only for new experiments.
+in the MusIML @ ICML 2026 workshop paper. Change them only for new experiments.
 """
 
 from dataclasses import dataclass, field
