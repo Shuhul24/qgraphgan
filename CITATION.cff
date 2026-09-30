@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "QGraphGAN"
+authors:
+  - family-names: Shafi
+    given-names: Shoiab
+  - family-names: Handoo
+    given-names: Shuhul
+preferred-citation:
+  type: conference-paper
+  title: "QGraphGAN: Quantum Graph Softmax for Adversarial Link Prediction via BFS-Tree Variational Circuits"
+  authors:
+    - family-names: Shafi
+      given-names: Shoiab
+    - family-names: Handoo
+      given-names: Shuhul
+  collection-title: "The 6th Muslims in ML (MusIML) Workshop at ICML 2026"
+  year: 2026

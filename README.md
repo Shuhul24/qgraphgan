@@ -1,8 +1,10 @@
 # QGraphGAN
 
-**Quantum graph-softmax generator for adversarial link prediction.**
+**QGraphGAN: Quantum Graph Softmax for Adversarial Link Prediction via BFS-Tree Variational Circuits**
 
-Code for the MusiML Workshop @ ICML 2026 paper on QGraphGAN, a hybrid quantum-classical version of
+Shoiab Shafi, Shuhul Handoo. *The 6th Muslims in ML (MusIML) Workshop at ICML 2026.*
+
+This repository contains the code for the paper. QGraphGAN is a hybrid quantum-classical version of
 [GraphGAN](https://arxiv.org/abs/1711.08267) (Wang et al., 2018).
 
 GraphGAN generates a node's neighbours by walking down a BFS tree rooted at that node, and it scores each
@@ -136,6 +138,16 @@ method across seeds. On the clean synthetic SBM, simple structural heuristics ar
   changes the random stream seen by the methods after it.
 - Node-classification F1 is only computed when a graph has labels and at least 20 nodes, and it is not part of
   the paper's claims.
+
+## Citation
+
+```bibtex
+@inproceedings{shafi2026qgraphgan,
+  title={QGraphGAN: Quantum Graph Softmax for Adversarial Link Prediction via BFS-Tree Variational Circuits},
+  author={Shafi, Shoiab and Handoo, Shuhul},
+  booktitle={The 6th Muslims in ML (MusIML) Workshop at ICML 2026}
+}
+```
 
 ## Acknowledgements
 
