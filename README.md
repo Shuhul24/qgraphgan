@@ -153,3 +153,7 @@ method across seeds. On the clean synthetic SBM, simple structural heuristics ar
 
 The problem setup, BFS-tree graph softmax and CA-GrQc split follow
 [GraphGAN](https://github.com/hwwang55/GraphGAN) (Wang et al., AAAI 2018).
+
+## License
+
+[MIT](LICENSE)
